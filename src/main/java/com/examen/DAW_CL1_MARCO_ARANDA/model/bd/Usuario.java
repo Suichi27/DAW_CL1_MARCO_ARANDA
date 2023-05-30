@@ -7,6 +7,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.Set;
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
@@ -26,4 +28,11 @@ public class Usuario {
     @Column(name="passusuario")
     private String passusuario;
 
+
+    @ManyToMany(cascade =  CascadeType.MERGE,
+            fetch = FetchType.EAGER)
+    @JoinTable(name = "usuario_rol",
+            joinColumns = @JoinColumn(name = "idusuario"),
+            inverseJoinColumns = @JoinColumn(name = "idrol"))
+    private Set<Rol> roles;
 }
