@@ -1,4 +1,4 @@
-package com.examen.DAW_CL1_MARCO_ARANDA.model.bd.request;
+package com.examen.DAW_CL1_MARCO_ARANDA.model.request;
 
 import lombok.Getter;
 import lombok.Setter;

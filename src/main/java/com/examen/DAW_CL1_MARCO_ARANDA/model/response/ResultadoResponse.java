@@ -1,4 +1,4 @@
-package com.examen.DAW_CL1_MARCO_ARANDA.model.bd.response;
+package com.examen.DAW_CL1_MARCO_ARANDA.model.response;
 
 import lombok.Builder;
 import lombok.Getter;

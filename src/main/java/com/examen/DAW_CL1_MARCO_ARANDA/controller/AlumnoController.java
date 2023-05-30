@@ -3,8 +3,8 @@ package com.examen.DAW_CL1_MARCO_ARANDA.controller;
 import com.examen.DAW_CL1_MARCO_ARANDA.model.bd.Alumno;
 import com.examen.DAW_CL1_MARCO_ARANDA.model.bd.Especialidad;
 
-import com.examen.DAW_CL1_MARCO_ARANDA.model.bd.request.AlumnoRequest;
-import com.examen.DAW_CL1_MARCO_ARANDA.model.bd.response.ResultadoResponse;
+import com.examen.DAW_CL1_MARCO_ARANDA.model.request.AlumnoRequest;
+import com.examen.DAW_CL1_MARCO_ARANDA.model.response.ResultadoResponse;
 import com.examen.DAW_CL1_MARCO_ARANDA.service.AlumnoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
